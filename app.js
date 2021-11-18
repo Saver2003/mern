@@ -18,7 +18,7 @@ async function start() {
       console.log(`App has been started on port ${PORT}`)
     })
   } catch (e) {
-    console.log('Server er#@r', e.message)  //1.46.05 далее готовим логинку
+    console.log('Server er#@r', e.message)
     process.exit(1)
   }
 }
